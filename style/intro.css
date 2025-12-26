@@ -1,0 +1,47 @@
+body{
+    background: #037171;
+    
+    margin: 0;
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+.gamemode-btn{
+
+    font-family: "Arial Nova";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+
+    width: 25vw;
+    height: 30vh;
+
+    font-size: 2em;
+
+    border-radius: 5px;
+    border: 3px solid #03312E;
+    background: #09423e;
+    color: #35f3ed;
+
+    transition: 150ms ease-in-out;
+}
+
+.gamemode-btn:hover{
+    transform: scale(0.98);
+    background: #03312E;
+    color: #02C3BD;
+
+}
+
