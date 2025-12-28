@@ -21,6 +21,10 @@ class Piece{
 };
 
 class Empty extends Piece{
+    constructor (color){
+        super(color);
+        this.type = 'e';
+    }
     getPath() { return []; }
 }
 
